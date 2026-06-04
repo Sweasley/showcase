@@ -1,17 +1,21 @@
-import { useState } from 'react'
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Stepper from "./components/Stepper.";
+import Projects from "./components/Projects";
 
-import './App.css'
-import Navbar from './components/Navbar'
 function App() {
-
-
   return (
     <>
-    <Navbar />
-    
-   
+      <Navbar />
+      <Hero />
+      <Stepper>
+        {/* Page sections */}
+        <Projects />
+        <Hero />
+      </Stepper>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

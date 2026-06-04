@@ -1,13 +1,12 @@
-import React from 'react'
+import React from "react";
 
 export default function Navbar() {
   return (
     <div className="navbar bg-base-100 shadow-sm">
-
       {/* Left / Brand */}
       <div className="flex-1">
         <a className="text-2xl font-bold text-primary hover:text-secondary">
-          W Gimutao
+          W.G
         </a>
       </div>
 
@@ -20,12 +19,20 @@ export default function Navbar() {
 
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-1 p-2 shadow bg-base-100 rounded-box w-52"
           >
-            <li><a>About</a></li>
-            <li><a>Experiences</a></li>
-            <li><a>Project</a></li>
-            <li><a>Contact</a></li>
+            <li>
+              <a>About</a>
+            </li>
+            <li>
+              <a>Experiences</a>
+            </li>
+            <li>
+              <a>Project</a>
+            </li>
+            <li>
+              <a>Contact</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -33,15 +40,20 @@ export default function Navbar() {
       {/* Desktop menu */}
       <div className="hidden lg:flex flex-none">
         <ul className="menu menu-horizontal px-1 gap-2">
-          <li><a className="hover:text-primary text-lg">About</a></li>
-          <li><a className="hover:text-primary text-lg">Experiences</a></li>
-          <li><a className="hover:text-primary text-lg">Project</a></li>
-          <li><a className="hover:text-primary text-lg">Contact</a></li>
+          <li>
+            <a className="hover:text-primary text-lg">About</a>
+          </li>
+          <li>
+            <a className="hover:text-primary text-lg">Experiences</a>
+          </li>
+          <li>
+            <a className="hover:text-primary text-lg">Project</a>
+          </li>
+          <li>
+            <a className="hover:text-primary text-lg">Contact</a>
+          </li>
         </ul>
-
-       
       </div>
-
     </div>
-  )
+  );
 }
