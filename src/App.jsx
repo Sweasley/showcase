@@ -3,6 +3,9 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Stepper from "./components/Stepper.";
 import Projects from "./components/Projects";
+import Education from "./components/Education";
+import Footer from "./components/Footer";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -12,8 +15,10 @@ function App() {
       <Stepper>
         {/* Page sections */}
         <Projects />
-        <Hero />
+        <Skills />
+        <Education />
       </Stepper>
+      <Footer />
     </>
   );
 }
