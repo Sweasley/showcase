@@ -5,7 +5,7 @@ export default function Skills() {
   const skills = SkillsData || [];
 
   return (
-    <div className="bg-base-100 min-h-20 w-full flex flex-col items-center p-6 md:p-12">
+    <div className="bg-base-100 min-h-20 w-full flex flex-col items-center p-6 md:p-12" data-aos="fade-up">
       {/* Title */}
       <h1 className="text-4xl font-bold tracking-tight text-base-content mb-8 text-center">
         Skills

@@ -6,7 +6,7 @@ export default function Hero() {
   const age = new Date().getFullYear() - 2001;
 
   return (
-    <section className="hero min-h-screen bg-base-100">
+    <section className="hero min-h-screen bg-base-100" >
       <div className="hero-content flex-col-reverse lg:flex-row-reverse gap-12">
         <div className="avatar shrink-0">
           <figure className="w-64 h-64 md:w-72 md:h-72 aspect-square overflow-hidden hover-gallery rounded-full ring ring-primary ring-offset-base-100 ring-offset-4 shadow-2xl transition-all duration-300">
@@ -74,7 +74,7 @@ export default function Hero() {
           </div>
 
           {/* CTA Buttons */}
-          <div className="flex justify-center lg:justify-start gap-4">
+          <div className="flex justify-center lg:justify-start gap-4" >
             <button className="btn btn-primary hover:btn-secondary shadow-md">
               View Projects
             </button>

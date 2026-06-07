@@ -22,16 +22,16 @@ export default function Navbar() {
             className="menu menu-sm dropdown-content mt-3 z-1 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>About</a>
+              <a href="#hero">About</a>
             </li>
             <li>
-              <a>Experiences</a>
+              <a href="#projects">Project</a>
             </li>
             <li>
-              <a>Project</a>
+              <a href="#skills">Skills</a>
             </li>
             <li>
-              <a>Contact</a>
+              <a href="#education">Experiences</a>
             </li>
           </ul>
         </div>
@@ -41,16 +41,17 @@ export default function Navbar() {
       <div className="hidden lg:flex flex-none">
         <ul className="menu menu-horizontal px-1 gap-2">
           <li>
-            <a className="hover:text-primary text-lg">About</a>
+            <a className="hover:text-primary text-lg" href="#hero">About</a>
+          </li>
+                <li>
+            <a className="hover:text-primary text-lg" href="#projects">Project</a>
           </li>
           <li>
-            <a className="hover:text-primary text-lg">Experiences</a>
+            <a className="hover:text-primary text-lg" href="#skills">Skills</a>
           </li>
+    
           <li>
-            <a className="hover:text-primary text-lg">Project</a>
-          </li>
-          <li>
-            <a className="hover:text-primary text-lg">Contact</a>
+            <a className="hover:text-primary text-lg" href="#education">Experiences</a>
           </li>
         </ul>
       </div>

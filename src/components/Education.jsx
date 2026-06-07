@@ -9,41 +9,54 @@ export default function EducationExperience() {
           Education & Experience
         </h1>
 
-        {/* EDUCATION */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 text-primary">Education</h2>
+        {/* EXPERIENCE */}
 
-          <div className="card bg-base-100 shadow-xl border border-base-300">
-            <div className="card-body">
-              <div className="flex justify-between items-start gap-2">
-                <h3 className="card-title text-xl">
-                  Bachelor of Science in Information Systems
-                </h3>
-                <span className="badge badge-primary">2020 - 2024</span>
+        <section className="mb-12" data-aos="fade-right">
+          <h2 className="text-2xl font-bold mb-6 text-primary">Experiences</h2>
+          <div className="grid gap-6">
+            <div className="card bg-base-100 shadow-xl border border-base-300">
+              <div className="card-body">
+                <div className="flex justify-between items-start gap-2">
+                  <h3 className="card-title text-xl">IT Automation Engineer</h3>
+                  <span className="badge badge-primary">2024 - Present</span>
+                </div>
+
+                <p className="text-secondary font-semibold">Siix Phils Inc.</p>
+
+                <div className="divider my-2"></div>
+
+                <ul className="list-disc ml-5 space-y-1 text-sm text-base-content/80">
+                  <li>
+                    Developed and implemented web-based systems that digitized
+                    manual paper-based processes within the company
+                  </li>
+                  <li>
+                    Automated operational workflows, reducing processing time
+                    and improving overall efficiency.
+                  </li>
+                  <li>
+                    Built internal tools and monitoring systems that supported
+                    audit compliance and operational tracking.
+                  </li>
+                  <li>
+                    Provided technical support and assisted users by resolving
+                    system related concerns and issues.
+                  </li>
+                  <li>
+                    Collaborated with different departments to identify workflow
+                    bottlenecks and develop process improvement solutions.
+                  </li>
+                  <li>
+                    Maintained and enhanced internal company applications using
+                    PHP, Laravel, CodeIgniter, JavaScript, and MySQL,
+                    PostgreSQL, Apache
+                  </li>
+                </ul>
               </div>
-
-              <p className="text-secondary font-semibold">NU Laguna</p>
-
-              <div className="divider my-2"></div>
-
-              <ul className="list-disc ml-5 space-y-1 text-sm text-base-content/80">
-                <li>
-                  Specialized in integrating technology with business processes.
-                </li>
-                <li>
-                  Completed a thesis on customer forecasting and segregation
-                  systems.
-                </li>
-                <li>Contributed to frontend development using React.</li>
-              </ul>
             </div>
           </div>
         </section>
-
-        {/* EXPERIENCE */}
-        <section>
-          <h2 className="text-2xl font-bold mb-6 text-primary">Experience</h2>
-
+        <section className="mb-12" data-aos="fade-right">
           <div className="grid gap-6">
             <div className="card bg-base-100 shadow-xl border border-base-300">
               <div className="card-body">
@@ -69,6 +82,37 @@ export default function EducationExperience() {
                   <li>Accurately replicated websites from a main source.</li>
                 </ul>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* EDUCATION */}
+        <section data-aos="fade-left">
+          <h2 className="text-2xl font-bold mb-6 text-primary">Education</h2>
+
+          <div className="card bg-base-100 shadow-xl border border-base-300">
+            <div className="card-body">
+              <div className="flex justify-between items-start gap-2">
+                <h3 className="card-title text-xl">
+                  Bachelor of Science in Information Systems
+                </h3>
+                <span className="badge badge-primary">2020 - 2024</span>
+              </div>
+
+              <p className="text-secondary font-semibold">NU Laguna</p>
+
+              <div className="divider my-2"></div>
+
+              <ul className="list-disc ml-5 space-y-1 text-sm text-base-content/80">
+                <li>
+                  Specialized in integrating technology with business processes.
+                </li>
+                <li>
+                  Completed a thesis on customer forecasting and segregation
+                  systems.
+                </li>
+                <li>Contributed to frontend development using React.</li>
+              </ul>
             </div>
           </div>
         </section>

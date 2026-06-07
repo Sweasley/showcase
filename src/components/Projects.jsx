@@ -29,13 +29,15 @@ export default function Projects() {
       </span>
 
       {/* Grid Layout Container */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-7xl w-full mx-auto ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-7xl w-full mx-auto">
         {ProjectsData.map((project) => (
           <div
             key={project.id}
             className="hover-3d"
             onClick={() => handleOpenModal(project)}
             role="button"
+            data-aos="fade-up" 
+            data-aos-duration="3000"
           >
             <div className="card bg-base-100 shadow-xl overflow-hidden h-full cursor-pointer hover:border-primary/30 border border-transparent  duration-200 text-left">
               <figure>

@@ -4,3 +4,6 @@
   themes: garden --default, dracula --prefersdark;
 }
 
+html {
+  scroll-behavior: smooth;
+}
