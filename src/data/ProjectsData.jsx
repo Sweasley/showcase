@@ -53,7 +53,7 @@ export const ProjectsData = [
       "Generating accurate PDF reports from validated production data.",
     ],
 
-    img: images[0],
+    img: images[3],
   },
   //performance evaluation
   {
@@ -102,7 +102,7 @@ export const ProjectsData = [
       "Centralized performance records and historical evaluation data.",
     ],
 
-    img: images[1],
+    img: images[4],
   },
   //emp system
   {
@@ -151,7 +151,7 @@ export const ProjectsData = [
       "Reduced manual tracking of certifications and employee skills.",
     ],
 
-    img: images[2],
+    img: images[5],
   },
   {
     id: "project-d",
@@ -199,7 +199,7 @@ export const ProjectsData = [
       "Centralized maintenance documentation across departments.",
     ],
 
-    img: images[2],
+    img: images[6],
   },
   //supp eval
   {
@@ -245,6 +245,6 @@ export const ProjectsData = [
       "Improved visibility of supplier assessment progress.",
       "Centralized supplier evaluation documentation.",
     ],
-    img: images[2],
+    img: images[7],
   },
 ];
