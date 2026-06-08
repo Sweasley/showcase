@@ -11,7 +11,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function App() {
-    useEffect(() => {
+  useEffect(() => {
     AOS.init({
       duration: 800,
       once: true,
@@ -21,22 +21,22 @@ function App() {
     <>
       <Navbar />
       <section id="hero">
-      <Hero />
+        <Hero />
       </section>
       <Stepper>
         {/* Page sections */}
         <section id="projects">
-        <Projects />
+          <Projects />
         </section>
-        <section  id="skills">
-        <Skills />
+        <section id="skills">
+          <Skills />
         </section>
         <section id="education">
-        <Education />
+          <Education />
         </section>
       </Stepper>
       <section id="footer">
-      <Footer />
+        <Footer />
       </section>
     </>
   );

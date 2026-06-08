@@ -6,7 +6,7 @@ export default function Hero() {
   const age = new Date().getFullYear() - 2001;
 
   return (
-    <section className="hero min-h-screen bg-base-100" >
+    <section className="hero min-h-screen bg-base-100">
       <div className="hero-content flex-col-reverse lg:flex-row-reverse gap-12">
         <div className="avatar shrink-0">
           <figure className="w-64 h-64 md:w-72 md:h-72 aspect-square overflow-hidden hover-gallery rounded-full ring ring-primary ring-offset-base-100 ring-offset-4 shadow-2xl transition-all duration-300">
@@ -29,12 +29,12 @@ export default function Hero() {
             IT AUTOMATION ENGINEER
           </div>
 
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold min-h-12 md:min-h-15">
+          <h1 className="text-md md:text-xl lg:text-5xl font-bold min-h-12 md:min-h-15">
             Hi, I'm{" "}
             <span className="text-primary">
               <TypeAnimation
                 sequence={[
-                  "John doe",
+                  "Wesley Gimutao",
                   1500,
                   "A PHP Developer",
                   1500,
@@ -51,10 +51,11 @@ export default function Hero() {
           </h1>
 
           <p className="py-6 text-base-content/80 text-lg leading-relaxed">
-            My name is John Doe. I'm an IT Automation Engineer with a Bachelor's
-            Degree in Information Systems. I specialize in automation, web
-            development, and building scalable business solutions. Utilizing AI
-            assisted coding for quality and faster development.
+            My name is Wesley Dyron Gimutao. I'm an IT Automation Engineer with
+            a Bachelor's Degree in Information Systems. I specialize in
+            automation, web development, and building scalable business
+            solutions. Utilizing AI assisted coding for quality and faster
+            development.
           </p>
 
           {/* Skills */}
@@ -74,11 +75,19 @@ export default function Hero() {
           </div>
 
           {/* CTA Buttons */}
-          <div className="flex justify-center lg:justify-start gap-4" >
-            <button className="btn btn-primary hover:btn-secondary shadow-md">
+          <div className="flex justify-center lg:justify-start gap-4">
+            <a
+              className="btn btn-primary hover:btn-secondary shadow-md"
+              href="#projects"
+            >
               View Projects
-            </button>
-            <button className="btn btn-outline">Contact Me</button>
+            </a>
+            <a
+              className="btn btn-outline"
+              href="mailto:weasleydyron.gimutao@gmail.com"
+            >
+              Contact Me
+            </a>
           </div>
         </div>
       </div>

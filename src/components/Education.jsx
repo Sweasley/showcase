@@ -61,6 +61,37 @@ export default function EducationExperience() {
             <div className="card bg-base-100 shadow-xl border border-base-300">
               <div className="card-body">
                 <div className="flex justify-between items-start gap-2">
+                  <h3 className="card-title text-xl">SGA 2nd Placer</h3>
+                  <span className="badge badge-primary">2026</span>
+                </div>
+
+                <p className="text-secondary font-semibold">
+                  SIIX EMS PHILIPPINES.
+                </p>
+
+                <div className="divider my-2"></div>
+
+                <ul className="list-disc ml-5 space-y-1 text-sm text-base-content/80">
+                  <li>Created an employee management system from scratch</li>
+                  <li>
+                    Improved data retrieval from 50 seconds to 8 seconds or %84
+                    improvement
+                  </li>
+                  <li>Presented in top management during the competition</li>
+                  <li>
+                    Improved HR visibility into employee qualifications and
+                    training status.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="mb-12" data-aos="fade-right">
+          <div className="grid gap-6">
+            <div className="card bg-base-100 shadow-xl border border-base-300">
+              <div className="card-body">
+                <div className="flex justify-between items-start gap-2">
                   <h3 className="card-title text-xl">Content Loader Intern</h3>
                   <span className="badge badge-primary">2024</span>
                 </div>
