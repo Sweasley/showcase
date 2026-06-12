@@ -11,10 +11,15 @@ import {
   FaPenNib,
   FaServer,
   FaRobot,
+  FaDocker,
 } from "react-icons/fa";
 import { PiMonitorBold } from "react-icons/pi";
 
 export const SkillsData = [
+  {
+    name: "Docker",
+    logo: FaDocker,
+  },
   {
     name: "Basic Networking",
     logo: FaNetworkWired,
