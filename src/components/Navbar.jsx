@@ -31,7 +31,7 @@ export default function Navbar() {
               <a href="#skills">Skills</a>
             </li>
             <li>
-              <a href="#education">Experiences</a>
+              <a href="#experience">Experiences</a>
             </li>
           </ul>
         </div>
@@ -41,17 +41,25 @@ export default function Navbar() {
       <div className="hidden lg:flex flex-none">
         <ul className="menu menu-horizontal px-1 gap-2">
           <li>
-            <a className="hover:text-primary text-lg" href="#hero">About</a>
-          </li>
-                <li>
-            <a className="hover:text-primary text-lg" href="#projects">Project</a>
+            <a className="hover:text-primary text-lg" href="#hero">
+              About
+            </a>
           </li>
           <li>
-            <a className="hover:text-primary text-lg" href="#skills">Skills</a>
+            <a className="hover:text-primary text-lg" href="#projects">
+              Project
+            </a>
           </li>
-    
           <li>
-            <a className="hover:text-primary text-lg" href="#education">Experiences</a>
+            <a className="hover:text-primary text-lg" href="#skills">
+              Skills
+            </a>
+          </li>
+
+          <li>
+            <a className="hover:text-primary text-lg" href="#experience">
+              Experiences
+            </a>
           </li>
         </ul>
       </div>

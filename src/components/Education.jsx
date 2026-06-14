@@ -6,7 +6,7 @@ export default function EducationExperience() {
       <div className="max-w-5xl mx-auto">
         {/* Main Title */}
         <h1 className="text-4xl font-bold text-center mb-12">
-          Education & Experience
+          Experience & Education
         </h1>
 
         {/* EXPERIENCE */}
