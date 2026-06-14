@@ -12,6 +12,8 @@ import {
   FaServer,
   FaRobot,
   FaDocker,
+  FaReact,
+  FaVuejs,
 } from "react-icons/fa";
 import { PiMonitorBold } from "react-icons/pi";
 
@@ -19,6 +21,14 @@ export const SkillsData = [
   {
     name: "Docker",
     logo: FaDocker,
+  },
+  {
+    name: "React",
+    logo: FaReact,
+  },
+  {
+    name: "Vue JS",
+    logo: FaVuejs,
   },
   {
     name: "Basic Networking",
