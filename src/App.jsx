@@ -59,28 +59,30 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <Stepper targetSection={section}>
-        <section id="about">
-          <Hero />
-        </section>
+      <div className="min-h-screen w-full overflow-x-hidden">
+        <Navbar />
+        <Stepper targetSection={section}>
+          <section id="about">
+            <Hero />
+          </section>
 
-        <section id="projects">
-          <Projects />
-        </section>
+          <section id="projects">
+            <Projects />
+          </section>
 
-        <section id="skills">
-          <Skills />
-        </section>
+          <section id="skills">
+            <Skills />
+          </section>
 
-        <section id="experience">
-          <Education />
-        </section>
-      </Stepper>
+          <section id="experience">
+            <Education />
+          </section>
+        </Stepper>
 
-      <section id="footer">
-        <Footer />
-      </section>
+        <section id="footer">
+          <Footer />
+        </section>
+      </div>
     </>
   );
 }
