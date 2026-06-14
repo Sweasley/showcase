@@ -2,8 +2,6 @@ import React from "react";
 import Fab from "./Fab";
 
 export default function Stepper({ children, targetSection }) {
-  console.log(targetSection);
-
   return (
     <div className="relative min-h-screen">
       <Fab />

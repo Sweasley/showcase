@@ -16,11 +16,6 @@ function App() {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          console.log(
-            entry.target.id,
-            entry.isIntersecting,
-            entry.intersectionRatio,
-          );
           if (entry.isIntersecting) {
             setSection(entry.target.id);
           }

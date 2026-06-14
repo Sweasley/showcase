@@ -12,13 +12,15 @@ export default function EducationExperience() {
         {/* EXPERIENCE */}
 
         <section className="mb-12" data-aos="fade-right">
-          <h2 className="text-2xl font-bold mb-6 text-primary">Experiences</h2>
+          <h2 className="text-md font-bold mb-6 text-primary">Experiences</h2>
           <div className="grid gap-6">
             <div className="card bg-base-100 shadow-xl border border-base-300">
               <div className="card-body">
                 <div className="flex justify-between items-start gap-2">
                   <h3 className="card-title text-xl">IT Automation Engineer</h3>
-                  <span className="badge badge-primary">2024 - Present</span>
+                  <span className="badge badge-primary text-xs w-fit max-w-full whitespace-nowrap shrink-0">
+                    2024 - Present
+                  </span>
                 </div>
 
                 <p className="text-secondary font-semibold">Siix Phils Inc.</p>
@@ -127,7 +129,9 @@ export default function EducationExperience() {
                 <h3 className="card-title text-xl">
                   Bachelor of Science in Information Systems
                 </h3>
-                <span className="badge badge-primary">2020 - 2024</span>
+                <span className="badge badge-primary text-xs w-fit max-w-full whitespace-nowrap shrink-0">
+                  2020 - 2024
+                </span>
               </div>
 
               <p className="text-secondary font-semibold">NU Laguna</p>
