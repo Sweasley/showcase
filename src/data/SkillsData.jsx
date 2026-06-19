@@ -16,11 +16,16 @@ import {
   FaVuejs,
 } from "react-icons/fa";
 import { PiMonitorBold } from "react-icons/pi";
+import { VscMcp } from "react-icons/vsc";
 
 export const SkillsData = [
   {
     name: "Docker",
     logo: FaDocker,
+  },
+  {
+    name: "MCP Skills",
+    logo: VscMcp,
   },
   {
     name: "React",
