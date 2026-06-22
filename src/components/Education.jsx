@@ -146,7 +146,7 @@ export default function EducationExperience() {
                   Completed a thesis on customer forecasting and segregation
                   systems.
                 </li>
-                <li>Contributed to frontend development using React.</li>
+
               </ul>
             </div>
           </div>

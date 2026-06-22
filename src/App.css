@@ -1,9 +1,9 @@
+html {
+  scroll-behavior: smooth !important;
+}
+
 @import "tailwindcss";
 
 @plugin "daisyui" {
   themes: garden --default, dracula --prefersdark;
-}
-
-html {
-  scroll-behavior: smooth;
 }
