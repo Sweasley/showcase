@@ -1,5 +1,5 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
+import ThemeController from "./components/ThemController";
 import Hero from "./components/Hero";
 import Stepper from "./components/Stepper.";
 import Projects from "./components/Projects";
@@ -47,15 +47,18 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-      duration: 800,
-      once: true,
+      duration: 1000,
+      once: false,
+      mirror: true,
+      easing: "ease-out-cubic",
+      offset: 50,
     });
   }, []);
 
   return (
     <>
       <div className="min-h-screen w-full overflow-x-hidden">
-        <Navbar />
+        <ThemeController />
         <Stepper targetSection={section}>
           <section id="about">
             <Hero />

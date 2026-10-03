@@ -14,7 +14,11 @@ import {
   FaDocker,
   FaReact,
   FaVuejs,
+  FaWordpress,
+  FaLinux,
+  FaBrain,
 } from "react-icons/fa";
+import { SiTypescript, SiSupabase } from "react-icons/si";
 import { PiMonitorBold } from "react-icons/pi";
 import { VscMcp } from "react-icons/vsc";
 
@@ -86,5 +90,25 @@ export const SkillsData = [
   {
     name: "Content Loading using CoreMedia",
     logo: PiMonitorBold,
+  },
+  {
+    name: "WordPress",
+    logo: FaWordpress,
+  },
+  {
+    name: "TypeScript",
+    logo: SiTypescript,
+  },
+  {
+    name: "Linux",
+    logo: FaLinux,
+  },
+  {
+    name: "RAG (Retrieval-Augmented Generation)",
+    logo: FaBrain,
+  },
+  {
+    name: "Supabase",
+    logo: SiSupabase,
   },
 ];

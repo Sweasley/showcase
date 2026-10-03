@@ -36,8 +36,7 @@ export default function Projects() {
             className="hover-3d"
             onClick={() => handleOpenModal(project)}
             role="button"
-            data-aos="fade-up" 
-            data-aos-duration="3000"
+            data-aos="fade-up"
           >
             <div className="card bg-base-100 shadow-xl overflow-hidden h-full cursor-pointer hover:border-primary/30 border border-transparent  duration-200 text-left">
               <figure>
